@@ -1,0 +1,51 @@
+.invoice {
+  width: 360px;
+  height: 200px;
+  display: inline-block;
+}
+
+.container {
+  height: 100%;
+  display: grid;
+  grid-template-columns: 70px auto;
+  grid-template-rows: 33% 33% 33%;
+}
+
+.icon {
+  height: 64px;
+  width: 64px;
+  display: inline-block;
+  margin: 5px;
+}
+
+.bill {
+  text-align: left;
+  margin: 0 auto;
+  padding: 20px;
+  width: auto;
+  display: inline-block;
+}
+
+.invoice-address-container {
+  position: relative;
+}
+
+.invoice-address-container>div {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+}
+
+.address {
+  font-size: xx-small;
+}
+
+.pay {
+  margin-top: 25px;
+  padding: 5px;
+}
+
+.pay>div {
+  display: inline-block !important;
+  margin-right: 5px;
+}
